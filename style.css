@@ -1,0 +1,56 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("images/fondo.jpg") ;
+            background-size:  cover;
+            background-repeat: no-repeat;
+            color: white;
+
+        }
+        header img{
+            border-radius:50%;
+        }
+        section{
+            color: white;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            overflow: hidden;
+            background-color: #444;
+            
+        }
+        nav li {
+            float: left;
+            list-style:none;
+            margin-top: 0em;
+        }
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: #555;
+            color: white
+        }
+        section {
+            padding: 2em;
+            margin: 1em;
+        }
+        .projects img {
+            width: 100%;
+            max-width: 300px;
+            Max-height: 150px;
+            margin: 0.5em;
+        }
